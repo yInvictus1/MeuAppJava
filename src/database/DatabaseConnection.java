@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3307/app_java?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";    // Usuário padrão do XAMPP
-    private static final String PASSWORD = "";    // Senha padrão é vazia
+    private static final String USER = "root";   
+    private static final String PASSWORD = "";  
     
     public static Connection getConnection() {
         try {
